@@ -16,7 +16,7 @@ def Walk(root='.', recurse=True, pattern='*'):
     """
     for path, subdirs, files in os.walk(root):
         dirname = os.path.basename(path)
-        if dirname in ('env', '.git') \
+        if dirname in ('env', '.git', 'build') \
                 or dirname.endswith('.egg-info'):
             del subdirs[:]
             continue
