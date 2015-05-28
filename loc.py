@@ -23,7 +23,7 @@ def Walk(root='.', recurse=True, pattern='*'):
             fname = os.path.join(path, name)
             if fnmatch.fnmatch(name, pattern) or check_py(fname):
                 with open(fname) as fspec:
-                    print '# Processing {0}'.format(fname), 
+                    print '# Processing {0}'.format(fname),
                     yield fspec
             else:
                 print '# Skipping {0}'.format(fname)
@@ -50,7 +50,7 @@ def LOC(root='', recurse=True):
         skip = False
         for line in fspec.readlines():
             s_count_maxi += 1
-            
+
             line = line.strip()
             if line:
                 if line.startswith('#'):
