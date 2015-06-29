@@ -1,25 +1,30 @@
-[submodule "docs"]
-	path = docs
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/docs.git
-[submodule "cloud-handler"]
-	path = cloud-handler
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/cloud-handler.git
-	branch = devel
-[submodule "compiler"]
-	path = compiler
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/compiler.git
-	branch = devel
-[submodule "enactor"]
-	path = enactor
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/enactor.git
+[submodule "util"]
+	path = util
+	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/util.git
 	branch = devel
 [submodule "info-broker"]
 	path = info-broker
 	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/info-broker.git
 	branch = devel
+[submodule "compiler"]
+	path = compiler
+	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/compiler.git
+	branch = devel
 [submodule "infrastructure-processor"]
 	path = infrastructure-processor
 	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/infrastructure-processor.git
+	branch = devel
+[submodule "enactor"]
+	path = enactor
+	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/enactor.git
+	branch = devel
+[submodule "cloud-handler"]
+	path = cloud-handler
+	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/cloud-handler.git
+	branch = devel
+[submodule "service-composer"]
+	path = service-composer
+	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/service-composer.git
 	branch = devel
 [submodule "occo-api"]
 	path = occo-api
@@ -29,11 +34,6 @@
 	path = occo-demo
 	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/occo-demo.git
 	branch = devel
-[submodule "service-composer"]
-	path = service-composer
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/service-composer.git
-	branch = devel
-[submodule "util"]
-	path = util
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/util.git
-	branch = devel
+[submodule "docs"]
+	path = docs
+	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/docs.git
