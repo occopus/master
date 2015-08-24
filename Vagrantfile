@@ -17,7 +17,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # Add vagrant user to the docker group
     pkg_cmd << "usermod -a -G docker vagrant; "
     # Prepare dependencies
-    pkg_cmd << "apt-get install -q -y --force-yes redis-server rabbitmq-server git python-pip;"
+    pkg_cmd << "apt-get install -q -y --force-yes redis-server rabbitmq-server git python-pip python-virtualenv;"
     pkg_cmd << "pip install -U pip==6.0.8;"
     pkg_cmd << "pip install -r /vagrant/util/requirements.txt; pip install --no-deps -r /vagrant/util/requirements_test.txt;"
     # Setup rabbitmq
