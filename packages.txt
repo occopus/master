@@ -1,0 +1,9 @@
+util
+info-broker
+compiler
+enactor
+cloud-handler
+service-composer
+infrastructure-processor
+occo-api
+occo-demo
