@@ -1,39 +1,36 @@
 [submodule "util"]
 	path = util
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/util.git
+    url = git@github.com:occopus/util.git
 	branch = devel
 [submodule "info-broker"]
 	path = info-broker
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/info-broker.git
+    url = git@github.com:occopus/info-broker.git
 	branch = devel
 [submodule "compiler"]
 	path = compiler
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/compiler.git
+    url = git@github.com:occopus/compiler.git
 	branch = devel
-[submodule "infrastructure-processor"]
-	path = infrastructure-processor
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/infrastructure-processor.git
+[submodule "infra-processor"]
+	path = infra-processor
+    url = git@github.com:occopus/infra-processor.git
 	branch = devel
 [submodule "enactor"]
 	path = enactor
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/enactor.git
+    url = git@github.com:occopus/enactor.git
 	branch = devel
 [submodule "cloud-handler"]
 	path = cloud-handler
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/cloud-handler.git
+    url = git@github.com:occopus/cloud-handler.git
 	branch = devel
 [submodule "service-composer"]
 	path = service-composer
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/service-composer.git
+    url = git@github.com:occopus/service-composer.git
 	branch = devel
-[submodule "occo-api"]
+[submodule "api"]
 	path = occo-api
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/occo-api.git
-	branch = devel
-[submodule "occo-demo"]
-	path = occo-demo
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/occo-demo.git
+    url = git@github.com:occopus/api.git
 	branch = devel
 [submodule "docs"]
 	path = docs
-	url = git@gitlab.lpds.sztaki.hu:cloud-orchestrator/docs.git
+    url = git@github.com:occopus/docs.git
+    branch = devel
