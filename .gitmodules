@@ -27,7 +27,7 @@
     url = git@github.com:occopus/service-composer.git
 	branch = devel
 [submodule "api"]
-	path = occo-api
+	path = api
     url = git@github.com:occopus/api.git
 	branch = devel
 [submodule "docs"]
