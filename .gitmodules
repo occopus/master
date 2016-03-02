@@ -18,9 +18,9 @@
 	path = enactor
     url = git@github.com:occopus/enactor.git
 	branch = devel
-[submodule "cloud-handler"]
-	path = cloud-handler
-    url = git@github.com:occopus/cloud-handler.git
+[submodule "resource-handler"]
+	path = resource-handler
+    url = git@github.com:occopus/resource-handler.git
 	branch = devel
 [submodule "service-composer"]
 	path = service-composer
