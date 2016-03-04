@@ -22,9 +22,9 @@
 	path = resource-handler
     url = git@github.com:occopus/resource-handler.git
 	branch = devel
-[submodule "service-composer"]
-	path = service-composer
-    url = git@github.com:occopus/service-composer.git
+[submodule "config-manager"]
+	path = config-manager
+    url = git@github.com:occopus/config-manager.git
 	branch = devel
 [submodule "api"]
 	path = api
