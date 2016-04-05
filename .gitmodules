@@ -1,34 +1,34 @@
 [submodule "util"]
 	path = util
-    url = https://github.com/occopus/util.git
+    url = git@github.com:occopus/util.git
 	branch = devel
 [submodule "info-broker"]
 	path = info-broker
-    url = https://github.com/occopus/info-broker.git
+    url = git@github.com:occopus/info-broker.git
 	branch = devel
 [submodule "compiler"]
 	path = compiler
-    url = https://github.com/occopus/compiler.git
+    url = git@github.com:occopus/compiler.git
 	branch = devel
 [submodule "infra-processor"]
 	path = infra-processor
-    url = https://github.com/occopus/infra-processor.git
+    url = git@github.com:occopus/infra-processor.git
 	branch = devel
 [submodule "enactor"]
 	path = enactor
-    url = https://github.com/occopus/enactor.git
+    url = git@github.com:occopus/enactor.git
 	branch = devel
 [submodule "resource-handler"]
 	path = resource-handler
-    url = https://github.com/occopus/resource-handler.git
+    url = git@github.com:occopus/resource-handler.git
 	branch = devel
 [submodule "config-manager"]
 	path = config-manager
-    url = https://github.com/occopus/config-manager.git
+    url = git@github.com:occopus/config-manager.git
 	branch = devel
 [submodule "api"]
 	path = api
-    url = https://github.com/occopus/api.git
+    url = git@github.com:occopus/api.git
 	branch = devel
 [submodule "docs"]
 	path = docs
