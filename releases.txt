@@ -6,6 +6,8 @@ Remove external redis config for occopus-import command
 Remove attribute dependency from plugins
 Reimplement floating_ip handling in nova plugin
 Fix bug in filtering
+New tutorial for puppet_solo plugin 
+New tutorial to introduce autoscaling with prometheus
 
 v1.2
 11 August 2016
