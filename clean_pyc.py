@@ -2,7 +2,6 @@
 
 import os
 import fnmatch
-import magic
 from argparse import ArgumentParser
 
 args = ArgumentParser(description='List *.pyc files to be cleaned')
