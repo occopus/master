@@ -1,0 +1,80 @@
+v1.3
+09 January 2017
+
+New Puppet config-manager plugin: server-free, called "puppet_solo"
+Remove external redis config for occopus-import command
+Remove attribute dependency from plugins
+Reimplement floating_ip handling in nova plugin
+Fix bug in filtering
+
+v1.2
+11 August 2016
+
+Support for keystone v3 password-based authentication in Nova plugin
+Infrastructure dynamic reconfiguration
+More logs in occi plugin
+Small fixes
+
+v1.1
+5 June 2016
+
+New CloudSigma resource-handler plugin
+New tutorials for CloudSigma
+New getipall() method for cloud-init
+Fix yaml_import in node definition
+Bugfixes in plugins: occi, docker, nova
+
+v1.0
+6 April 2016
+
+Restructure node definition format
+Introduce schema checking
+Mixed config-manager support
+Refactor plugin names
+Reorganise config and authentication
+New authenticator selection mechanism
+New filtering mechanism in node description
+Simplification of health_check
+Introduce getip() in context templates
+Update occopus commands
+Introduce occopus-maintain command for maintenance
+Introduce occopus-scale command for scaling
+Support for multi infrastructure handling
+Refactor occopus-import command parameters
+
+v0.3.0
+15 Jan 2016
+
+New plugins and service health monitoring
+
+introduce periodical service health checking
+new service health check mechanism: database check
+new service health check mechanism: port check
+add timeout for service unavailability
+improved nova plugin: voms based authorization
+new plugin: handling docker cluster
+new plugin: occi cloud interface for EGI FedClouds
+tutorials to demonstrate chef, docker and occi plugins
+node definition 'synch_strategy' keyword renamed to 'service_health_check'
+
+v0.2.1
+10 Nov 2015
+
+Improved EC2 handling
+
+support for security group, subnet and keypairs in EC2 plugin
+two ec2 tutorials updated
+
+v0.2.0
+4 Nov 2015
+
+Initial public release of Occopus
+
+multi-cloud support
+basic command line utils and REST interface
+support for cloud interfaces: EC2, NOVA, CloudBroker
+support for configuration manager: Chef
+initial version of error detection and recovery
+manual scaling through REST API
+tutorials for EC2, NOVA and CloudBroker
+
