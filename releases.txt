@@ -1,3 +1,31 @@
+v1.5
+23 May 2017
+
+Reimplemented cloudbroker plugin: handle instances, not jobs
+Remove cloud-broker node resolver (replaced by cloud-init)
+Add multiuser support in handling redis server
+Improve error handling and logging in cloudsigma, ec2 and occi plugins
+Improve nova plugin to handle interruption
+Add infra and node name syntax checking
+Add new Occopus installer script
+Improve parallel node creation
+
+v1.4
+27 March 2017
+
+Improve node handling in cloudsigma plugin
+Improve floating ip handling in nova plugin
+Precise syntax error reporting for descriptors
+Unique VM name for nodes as default
+Introduce user defined VM name templates
+Improve error/exception handling and reporting
+Fix logging and evaluation in schema checker
+Fix calculating default scaling min,max
+Restructure health-check reporting
+Deprecate 'network_mode' attribute in docker plugin
+Introduce attach and detach functions in rest
+Compatible REST and cmd-line functions
+
 v1.3
 09 January 2017
 
