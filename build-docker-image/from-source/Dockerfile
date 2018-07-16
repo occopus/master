@@ -31,4 +31,4 @@ RUN apt-get update && apt-get upgrade -y && \
 COPY docker-entrypoint.sh /usr/local/bin
 ENTRYPOINT ["docker-entrypoint.sh"]
 
-CMD occopus-rest-service --parallelize --auth_data_path /opt/auth_data.yaml --host "$HOST_IP"
+CMD occopus-rest-service --parallelize --auth_data_path  $HOME/.occopus/auth_data.yaml --host "$HOST_IP"
