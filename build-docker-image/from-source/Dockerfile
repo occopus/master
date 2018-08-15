@@ -8,7 +8,7 @@ ENV LOG_DIR /var/log/occopus
 #Install Occopus dependencies
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y libffi-dev iputils-ping git curl && \
-    ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /usr/lib/x86_64-linux-gnu/libcrypto.so && \
+    ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1 /usr/lib/x86_64-linux-gnu/libcrypto.so && \
     git clone --depth 1 https://github.com/occopus/master.git /occopus.src --recursive && \
     cd /occopus.src && \
     git submodule foreach git checkout devel && \
