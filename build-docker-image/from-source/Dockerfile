@@ -20,7 +20,7 @@ RUN apt-get update && apt-get upgrade -y && \
     curl https://raw.githubusercontent.com/occopus/docs/devel/tutorial/.occopus/occopus_config.yaml -o $HOME/.occopus/occopus_config.yaml && \
     curl https://raw.githubusercontent.com/occopus/docs/devel/tutorial/.occopus/auth_data.yaml -o $HOME/.occopus/auth_data.yaml && \
     apt-get update && \
-    apt-get remove --purge -y perl-modules perl curl git git-man && \
+    apt-get remove --purge -y perl-modules perl git git-man && \
     apt-get autoremove -y && \
     apt-get clean && \
     rm -r /occopus.src/.git && \
