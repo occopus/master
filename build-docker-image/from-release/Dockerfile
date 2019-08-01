@@ -28,4 +28,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl \
 COPY docker-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["docker-entrypoint.sh"]
 
-CMD occopus-rest-service --parallelize --auth_data_path  $HOME/.occopus/auth_data.yaml --host "$HOST_IP"
+CMD ["--parallelize", "--host", "0.0.0.0"]
