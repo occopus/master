@@ -1,3 +1,17 @@
+
+v1.6
+5 Apr 2019
+
+New REST methods: notify, scaleto
+Export ip addresses by occopus-maintain
+Select youngest instance at downscaling when unspecified
+Added FCM event logging and notification
+Add cmd() and getprivip() methods in cloud-init resolution
+Add tagging for ec2 clouds
+Fixes in cloudsigma plugin (start server timeout, error code, ip retrieval)
+Fixes in docker plugin (version, dependencies, local image source support)
+Fixes in ec2 plugin (boto v2.48.0. with dependencies)
+
 v1.5
 23 May 2017
 
