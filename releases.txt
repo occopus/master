@@ -1,3 +1,12 @@
+v1.7
+30 Apr 2020
+Add Azure plugin
+Upgrade to Python 3
+Add reporting multiple node addresses
+Add -f parameter for downscale to select node
+Add ApplicationCredential auth type handling to nova
+Add region selection to nova
+Add downscale by any ip of the node
 
 v1.6
 5 Apr 2019
